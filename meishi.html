@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>タイトル</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- タイトル -->
+        <h1 class="title1">名刺デザイン ギャラリー</h1>
+
+        <!-- カテゴリー絞り込みのボタン -->
+        <div class="search-list">
+            <button class="search-list__item js-category-label is-active" data-category="">すべて</button>
+            <button class="search-list__item js-category-label" data-category="left">左揃え</button>
+            <button class="search-list__item js-category-label" data-category="right">右揃え</button>
+            <button class="search-list__item js-category-label" data-category="left_right">左右揃え</button>
+            <button class="search-list__item js-category-label" data-category="center">中央揃え</button>
+        </div>
+        <!-- カテゴリー絞り込みのボタンここまで -->
+
+        <!-- ↓ masonry機能実装-->
+            
+        <!-- リスト -->
+        <div class="grid" id="contents">
+                <div class="grid-item test" data-category="left">
+                        <span></span>
+                        <img src="img/img1.jpg">
+                </div>
+        </div>
+        <!-- リストここまで -->
+
+        <!-- jQueryのCDNを読み込む場合（圧縮版はminifiled） -->
+        <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+
+        <!-- 圧縮されたCDN -->
+        <script src="masonry.pkgd.min.js"></script>
+
+        <script src="imagesloaded.pkgd.js"></script>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
