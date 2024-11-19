@@ -35,13 +35,13 @@
 
 /*Layout*/
   .grid {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
   }
 
   /* fluid 2 columns */
   .grid-item{
-    width: 400px;
+    width: 600px;
     
     /*縦並び*/
     display:flex;
@@ -62,23 +62,23 @@
   }
 
 /*メディアクエリ*/
+@media screen and (max-width: 1400px) {
+  .grid {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .grid {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .grid {
     width: 800px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .grid {
-    width: 400px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .grid {
-    width: 400px;
     margin: 0 auto;
   }
 }
