@@ -54,6 +54,7 @@
   .grid-item img {
     width: 400px;
     height: 266.6px;
+    outline: solid 1px black;
   }
 
   li{
