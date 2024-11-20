@@ -35,20 +35,17 @@
 
 /*Layout*/
   .grid {
-    width: 1800px;
+    max-width: 1800px;
     margin: 0 auto;
   }
 
   /* fluid 2 columns */
   .grid-item{
-    width: 800px;
-    
-    /*縦並び*/
-    display:flex;
-    flex-flow: column;
+    width: 900px;
+    height: 900px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 900px;
   }
 
   .test1 img {
@@ -70,6 +67,13 @@
   }
 
 /*メディアクエリ*/
+@media screen and (max-width: 2700px) {
+  .grid {
+    width: 1800px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 1800px) {
   .grid {
     width: 900px;

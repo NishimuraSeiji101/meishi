@@ -6,9 +6,6 @@ $container.imagesLoaded(function(){
     itemSelector: '.grid-item', //タイトル状に配置する要素のclassの指定
     columnWidth: 900,
     gutterWidth: 0,
-	//isFitWidth: true,　//親要素の幅に合わせてタイル状のコンテンツ数を自動調整
-	//isAnimated: true,　//伸縮時のアニメーションの設定
-    //percentPosition: true,
     isResizable: true,
     horizontalOrder: true,
     transitionDuration: '1.5s'
@@ -42,9 +39,6 @@ document.addEventListener('DOMContentLoaded', function () {
             itemSelector: '.grid-item', //タイトル状に配置する要素のclassの指定
             columnWidth: 900,
             gutterWidth: 0,
-            //isFitWidth: true,　//親要素の幅に合わせてタイル状のコンテンツ数を自動調整
-            //isAnimated: true,　//伸縮時のアニメーションの設定
-            //percentPosition: true,
             isResizable: true,
             originLeft: true,
             horizontalOrder: true,
