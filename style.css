@@ -35,26 +35,34 @@
 
 /*Layout*/
   .grid {
-    width: 1200px;
+    width: 1800px;
     margin: 0 auto;
   }
 
   /* fluid 2 columns */
   .grid-item{
-    width: 600px;
+    width: 800px;
     
     /*縦並び*/
     display:flex;
     flex-flow: column;
     align-items: center;
-    
-    height: 400px;
+    justify-content: center;
+    height: 900px;
   }
 
-  .grid-item img {
-    width: 400px;
-    height: 266.6px;
+  .test1 img {
+    width: 750px;
+    height: auto;
     outline: solid 1px black;
+    margin: 0 auto;
+  }
+
+  .test2 img {
+    width: 468px;
+    height: auto;
+    outline: solid 1px black;
+    margin: 0 auto;
   }
 
   li{
@@ -62,23 +70,9 @@
   }
 
 /*メディアクエリ*/
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1800px) {
   .grid {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .grid {
-    width: 1000px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .grid {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
   }
 }

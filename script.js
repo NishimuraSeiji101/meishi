@@ -4,7 +4,7 @@ var $container = $('#contents'); //タイトル状に配置するコンテンツ
 $container.imagesLoaded(function(){ 
   $container.masonry({
     itemSelector: '.grid-item', //タイトル状に配置する要素のclassの指定
-    columnWidth: 600,
+    columnWidth: 900,
     gutterWidth: 0,
 	//isFitWidth: true,　//親要素の幅に合わせてタイル状のコンテンツ数を自動調整
 	//isAnimated: true,　//伸縮時のアニメーションの設定
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         $container.imagesLoaded(function(){ 
             $container.masonry({
             itemSelector: '.grid-item', //タイトル状に配置する要素のclassの指定
-            columnWidth: 600,
+            columnWidth: 900,
             gutterWidth: 0,
             //isFitWidth: true,　//親要素の幅に合わせてタイル状のコンテンツ数を自動調整
             //isAnimated: true,　//伸縮時のアニメーションの設定
